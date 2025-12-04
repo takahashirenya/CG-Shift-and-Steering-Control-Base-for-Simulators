@@ -1,0 +1,37 @@
+# ---- KiCad 一時ファイル・バックアップ ----
+*-backups/
+*.kicad_prl
+*.sch-bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.bak
+
+# フットプリントキャッシュ
+fp-info-cache
+
+# ---- 生成物（必要ならコミットしない）----
+
+# ネットリスト・BOM など
+*.net
+*.xml
+*.csv
+
+# 位置データ
+*.pos
+
+# Gerber / drill / fab ファイル
+*.gbr
+*.gtl
+*.gbl
+*.gts
+*.gbs
+*.gto
+*.gbo
+*.gm*
+*.drl
+*.zip
+
+# 生成物用フォルダ（jlcpcb/ など）
+gerber/
+fabrication/
+out/
